@@ -117,6 +117,7 @@ export default class Zettlr {
   /**
     * Shutdown the app. This function is called on quit.
     * @return {Promise} Resolves after the providers have shut down
+    
     */
   async shutdown (): Promise<void> {
     if (!this._app.documents.isClean()) {
