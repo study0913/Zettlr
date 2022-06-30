@@ -8,6 +8,7 @@ writer: markdown
 # Set to "all" to include everything.
 track-changes: accept
 # Extract images etc. from the document into this directory
+# Add resource-path
 extract-media: ./assets
 wrap: none
 # Set to setext to produce underlined h1 and h2
